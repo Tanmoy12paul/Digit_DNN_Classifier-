@@ -7,7 +7,7 @@ A DNN model to classify handwritten digits from the MNIST dataset.
 
 The model uses a fully connected (dense) architecture:
 
-![DNN_img](ChatGPT%20Image%20Apr%2023%2C%202025%2C%2011_48_05%20PM.png)
+![DNN Architecture](DNN_img/to/ChatGPT%20Image%20Apr%2023%2C%202025%2C%2011_48_05%20PM.png)
 
 - Input Layer: 784 neurons (28x28 pixels)
 - Hidden Layers: Two fully connected layers with ReLU activation and dropout regularization
@@ -21,7 +21,7 @@ The MNIST dataset consists of 60,000 training and 10,000 test images of handwrit
 
 Example samples from the dataset:
 
-![DNN_img](mnist_dataset.png)
+![MNIST Dataset](DNN_img/to/mnist_dataset.png)
 
 ---
 
@@ -29,7 +29,7 @@ Example samples from the dataset:
 
 These predictions demonstrate how the trained model performs on test samples:
 
-![DNN_img](Screenshot%202025-04-23%20231425.png)
+![Predictions](DNN_img/to/Screenshot%202025-04-23%20231425.png)
 
 ---
 
@@ -37,7 +37,7 @@ These predictions demonstrate how the trained model performs on test samples:
 
 The plot below shows training and validation accuracy per epoch, using dropout, L2 regularization, and early stopping:
 
-![DNN_img](DNN_acc%20vs%20val_acc.png)
+![Accuracy Plot](DNN_img/to/DNN_acc%20vs%20val_acc.png)
 
 ---
 
