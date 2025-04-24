@@ -7,7 +7,7 @@ A DNN model to classify handwritten digits from the MNIST dataset.
 
 The model uses a fully connected (dense) architecture:
 
-![DNN Architecture]([https://raw.githubusercontent.com/Tanmoy12paul/Digit_DNN_Classifier-/main/DNN_img/ChatGPT%20Image%20Apr%2023%2C%202025%2C%2011_48_05%20PM.png](https://github.com/Tanmoy12paul/Digit_DNN_Classifier-/blob/main/DNN_img/neural_net.png))
+(https://github.com/Tanmoy12paul/Digit_DNN_Classifier-/blob/main/DNN_img/neural_net.png)
 
 - **Input Layer**: 784 neurons (28x28 pixels)
 - **Hidden Layers**: Three fully connected layers with ReLU activation
@@ -31,7 +31,7 @@ Example samples from the dataset:
 
 These predictions showcase how well the trained model performs on test samples:
 
-![Predictions]([https://raw.githubusercontent.com/Tanmoy12paul/Digit_DNN_Classifier-/main/DNN_img/Screenshot%202025-04-23%20231425.png](https://github.com/Tanmoy12paul/Digit_DNN_Classifier-/blob/main/DNN_img/sample_prediction.png))
+![Predictions](https://github.com/Tanmoy12paul/Digit_DNN_Classifier-/blob/main/DNN_img/sample_prediction.png)
 
 ---
 
@@ -39,7 +39,7 @@ These predictions showcase how well the trained model performs on test samples:
 
 Training and validation accuracy over time:
 
-![Accuracy Plot]([https://raw.githubusercontent.com/Tanmoy12paul/Digit_DNN_Classifier-/main/DNN_img/DNN_acc%20vs%20val_acc.png](https://github.com/Tanmoy12paul/Digit_DNN_Classifier-/blob/main/DNN_img/accuracy_plot.png))
+![Accuracy Plot](https://github.com/Tanmoy12paul/Digit_DNN_Classifier-/blob/main/DNN_img/accuracy_plot.png)
 
 ---
 
