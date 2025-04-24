@@ -1,14 +1,45 @@
 # Digit_DNN_Classifier
 
 A DNN model to classify handwritten digits from the MNIST dataset.
+---
 
-## 📌 Overview
+## 🧠 Network Architecture
 
-This project demonstrates how to use a fully-connected Deep Neural Network (DNN) for image classification on the MNIST dataset using TensorFlow and Keras. The model learns to recognize digits (0–9) with high accuracy.
+The model uses a fully connected (dense) architecture:
 
-## 📂 Files
+![DNN Architecture](ChatGPT%20Image%20Apr%2023%2C%202025%2C%2011_48_05%20PM.png)
 
-- `mnist_usingDDN.ipynb` — Jupyter Notebook with all model training, evaluation, and visualization.
+- Input Layer: 784 neurons (28x28 pixels)
+- Hidden Layers: Two fully connected layers with ReLU activation and dropout regularization
+- Output Layer: 10 neurons (digits 0–9)
+
+---
+
+## 🧾 Dataset
+
+The MNIST dataset consists of 60,000 training and 10,000 test images of handwritten digits.
+
+Example samples from the dataset:
+
+![MNIST Dataset](mnist_dataset.png)
+
+---
+
+## 🔎 Sample Predictions
+
+These predictions demonstrate how the trained model performs on test samples:
+
+![Predictions](Screenshot%202025-04-23%20231425.png)
+
+---
+
+## 📈 Accuracy Over Epochs
+
+The plot below shows training and validation accuracy per epoch, using dropout, L2 regularization, and early stopping:
+
+![Accuracy Plot](DNN_acc%20vs%20val_acc.png)
+
+---
 
 ## 🚀 Getting Started
 
@@ -21,44 +52,24 @@ cd mnist-with-deep-neural-network
 
 ### 2. Install dependencies
 
-Ensure Python 3.7+ is installed, then run:
-
 ```bash
 pip install -r requirements.txt
 ```
 
-You can generate this file using:
-
-```bash
-pip freeze > requirements.txt
-```
-
 ### 3. Run the notebook
 
-Start Jupyter and open the notebook:
-
 ```bash
-jupyter notebook
+jupyter notebook mnist_usingDDN.ipynb
 ```
 
-## 📈 Model Summary
+---
 
-- Input: 28x28 grayscale images
-- Output: 10-class softmax for digits 0-9
-- Architecture: Fully connected dense layers with ReLU activation and dropout
+## 📊 Model Summary
 
-## 🧪 Performance
+- Activation: ReLU
+- Optimizer: Adam
+- Loss Function: Categorical Crossentropy
+- Metrics: Accuracy
+- Techniques: Dropout, L2 Regularization, EarlyStopping
 
-Include here your model's accuracy and loss graphs or confusion matrix if available.
-
-## 🤝 Contributing
-
-Feel free to fork this repo, make changes, and submit a pull request. For major changes, open an issue first to discuss the proposed updates.
-
-## 📄 License
-
-MIT License
-
-## ✍️ Author
-
-- [Your Name](https://github.com/your-username)
+---
