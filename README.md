@@ -7,7 +7,7 @@ A DNN model to classify handwritten digits from the MNIST dataset.
 
 The model uses a fully connected (dense) architecture:
 
-(https://github.com/Tanmoy12paul/Digit_DNN_Classifier-/blob/main/DNN_img/neural_net.png)
+![DNN Architecture](https://github.com/Tanmoy12paul/Digit_DNN_Classifier-/blob/main/DNN_img/neural_net.png)
 
 - **Input Layer**: 784 neurons (28x28 pixels)
 - **Hidden Layers**: Three fully connected layers with ReLU activation
